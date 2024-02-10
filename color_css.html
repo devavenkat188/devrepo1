@@ -16,16 +16,22 @@
 
         #c {
             color: rgba(0, 153, 0, 0.3);
+            text-align: center;
         }
 
         #d {
             color: #990000;
+            text-align: center;
         }
+
         #e {
-            color: hsl(120,100%,60%)
+            color: hsl(120, 100%, 60%);
+            text-align: center;
         }
+
         #f {
-            color: hsla(120, 100%, 89%)
+            color: hsla(120, 100%, 89%);
+            text-align: center;
         }
     </style>
 </head>
@@ -33,13 +39,24 @@
 <body>
     <h1>Built-In Color</h1>
     <h1 id="b">RGB Format</h1>
+    <h1 id="c">RGBA Format</h1>
+    <h1 id="d">Hexadecimal Notation</h1>
+    <h1 id="e">HSL</h1>
+    <h1 id="f">HSLA</h1>
     <ol>
         <li>Built-In color</li>
-        <li>RGB Format</li>
-        <li id="c">RGBA Format</li>
-        <li id="d">Hexadecimal Notation</li>
-        <li id="e">HSL</li>
-        <li id="f">HSLA</li>
+        <li>RGB Format</li> <!-- Red (255,0,0),Green (0,255,0),Blue (0,0,255)-->
+        <li>RGBA Format</li><!-- Red,Green,Blue Alpha-(value lies b/w 0.0 to 1.0
+            where 0.0 - means fully transparent & 1.0 - means not transparent)-->
+        <li>Hexadecimal Notation</li> <!--brgin with # symbol followed by 6 characters ranging from 0 to F.
+        EX: Red #FF0000, Green #00FF00, Blue #0000FF -->
+        <li>HSL</li> <!-- Hue is the degree of color wheel. values lies b/w 0 to 360 where 0 means red, 
+        120 means green & 240 means blue.
+                        Saturation takes percentage value, 100% means completely saturated & 0% means 
+        completely unsaturated
+                        Lightness 100% means white & 0% means black-->
+        <li>HSLA</li> <!-- similar to HSL property. A - Alpha 0.0 means fully transparent & 1.0 means not 
+        transparent-->
     </ol>
 </body>
 
