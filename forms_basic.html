@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic_From</title>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            <label for="1">First Name: </label>
+            <input type="text" value="Enter your Firstname" id="1" required> <br>
+            <label>Last Name: </label>
+            <input type="text" placeholder="Enter your Lastname" required> <br>
+            <label>Password: </label>
+            <input type="password" placeholder="Enter the Password"> <br>
+            <label>DOB: </label>
+            <input type="date"> <br>
+            <label>Gender: </label>
+            <input type="radio" value="Male">Male
+            <input type="radio" value="Female">Female <br>
+            <label>Email: </label>
+            <input type="email" placeholder="EX:somename@gmail.com" required> <br>
+            <label>Languages: </label>
+            <input type="checkbox" name="Languages" value="C">C
+            <input type="checkbox" name="Languages" value="Java">Java
+            <input type="checkbox" name="Languages" value="JavaScript" checked>JavaScript
+            <input type="checkbox" name="Languages" value="Python">Python <br>
+            <label>Department: </label>
+            <select>
+                <option name="Department" value="Civil Engineering">Civil Engineering</option>
+                <option name="Department" value="Mechanical Engineering">Mechanical Engineering</option>
+                <option name="Department" value="Computer Science Engineering">Computer Science Engineering</option>
+                <option name="Department" value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
+                <option name="Department" value="Information Technology">Information Technology</option>
+                <option name="Department" value="Automobile Engineering">Automobile Engineering</option>
+            </select> <br>
+            <label>Skills: </label>
+            <textarea rows="10" cols="5" placeholder="Add your sills"></textarea> <br>
+            <label>Resume: </label>
+            <input type="file"> <br>
+            <label>Security: </label>
+            <input type="color"> <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
