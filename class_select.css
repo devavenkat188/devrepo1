@@ -1,0 +1,15 @@
+.one {
+    color: blue;
+    background-color: aliceblue;
+    font-style: italic;
+}
+.two {
+    color:aqua;
+    background-color: antiquewhite;
+    font-style: initial;
+}
+.three {
+    color: aquamarine;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
