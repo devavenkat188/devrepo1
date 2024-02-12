@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Width_Height</title>
-        <stlye>
-            .wid {
-                height: 120px;
-                
-            }
-        </stlye>
-    </head>
-    <body>
-        <div class="wid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, soluta tempora magnam ad aut earum possimus rem est. Sit sunt blanditiis sint accusamus mollitia obcaecati!</div>
-        <hr>
-        <h3>height and Width of the Images</h3>
-        <div><image src="C:\Users\Admin\Downloads\car-vehicle-luxury-116675.jpg"></image></div>
-        <hr>
-        <h3>Maximum Width of the boxes</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti odio voluptatibus nesciunt obcaecati ipsa cupiditate fuga non similique optio? Praesentium mollitia, architecto recusandae, animi iusto numquam reprehenderit rerum eum est modi inventore necessitatibus nobis enim dicta, veniam temporibus illo similique explicabo soluta harum tempore. Laboriosam quasi expedita error nulla?</p>
-        <hr>
-        <h3>Minimum Width of the boxes</h3>
-        <p class="min">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tempora, nulla a totam sit esse blanditiis, non vitae dignissimos sequi praesentium repellendus adipisci sunt? Voluptatum et numquam quis saepe! Placeat, distinctio iste. Totam, molestias est. Necessitatibus nihil soluta quos ipsum?</p>
-        <hr>
-        <h3>Maximum height of the element</h3>
-        <p class="mh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis atque facere, delectus ipsam quibusdam libero repudiandae ipsa praesentium cupiditate autem dolorem eligendi! Dolor ipsa omnis sed perferendis expedita! Aliquam iste iusto quis expedita, quaerat vel officia ad est voluptate sit maiores nihil cupiditate dolorum, saepe reiciendis illo. Corporis, id nostrum.</p>
-        <hr>
-        <h3>Minimum height of the element</h3>
-        <p class="ml">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias esse qui quia facilis quibusdam similique quos error quaerat, quam, ratione, vel cumque alias quasi!</p>
 
-    </body>
+<head>
+    <title>Width_Height</title>
+    <style>
+        .wid {
+            height: 120px;
+            width: 50%;
+            border: 2px solid greenyellow;
+        }
+
+        .img {
+            width: 200px;
+            height: 300px;
+            border: 3px double gray;
+            margin: 50px;
+            padding: 50px;
+            
+        }
+
+        .max {
+            max-width: 500px;
+            border: 2px dashed powderblue;
+        }
+
+        .min {
+            min-width: 400px;
+            border: 2px dotted darkgray;
+        }
+
+        .mh {
+            max-height: 100px;
+            border: 1px outset ghostwhite;
+        }
+
+        .ml {
+            min-height: 50px;
+            border: 1px groove yellow;
+        }
+
+        h3 {
+            text-align: center;
+            color: rgba(128, 43, 226, 0.6);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, soluta tempora magnam ad aut earum
+        possimus rem est. Sit sunt blanditiis sint accusamus mollitia obcaecati!</div>
+    <h3>Height and Width of the Images</h3>
+    <center>
+    <image class="img" src="C:\Users\Admin\Downloads\car-vehicle-luxury-116675.jpg"></image>
+    </center>
+    <h3>Maximum Width of the boxes</h3>
+    <p class="max">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti odio voluptatibus nesciunt
+        obcaecati ipsa
+        cupiditate fuga non similique optio? Praesentium mollitia, architecto recusandae, animi iusto numquam
+        reprehenderit rerum eum est modi inventore necessitatibus nobis enim dicta, veniam temporibus illo similique
+        explicabo soluta harum tempore. Laboriosam quasi expedita error nulla?</p>
+    <h3>Minimum Width of the boxes</h3>
+    <p class="min">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tempora, nulla a totam sit esse
+        blanditiis, non vitae dignissimos sequi praesentium repellendus adipisci sunt? Voluptatum et numquam quis saepe!
+        Placeat, distinctio iste. Totam, molestias est. Necessitatibus nihil soluta quos ipsum?</p>
+    <h3>Maximum height of the element</h3>
+    <p class="mh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis atque facere, delectus ipsam
+        quibusdam libero repudiandae ipsa praesentium cupiditate autem dolorem eligendi! Dolor ipsa omnis sed
+        perferendis expedita! Aliquam iste iusto quis expedita, quaerat vel officia ad est voluptate sit maiores nihil
+        cupiditate dolorum, saepe reiciendis illo. Corporis, id nostrum.</p>
+    <h3>Minimum height of the element</h3>
+    <p class="ml">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias esse qui quia facilis quibusdam
+        similique quos error quaerat, quam, ratione, vel cumque alias quasi!</p>
+
+</body>
+
 </html>
