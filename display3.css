@@ -44,7 +44,12 @@ ul {
 ul {
     margin-left: 70%;
 }
-
+.one,.two,.three:hover {
+    color: blueviolet;
+}
+.one,.two,.three {
+    cursor: pointer;
+}
 .one {
     margin-right: 50px;
 }
