@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.one {
+    background-color: black;
+    color: white;
+}
+li {
+    display: inline;
+}
