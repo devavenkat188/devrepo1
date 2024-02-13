@@ -2,12 +2,14 @@
     background-color: black;
     color: white;
     display: inline-block;
+    margin-left: 10px;
 }
 .two {
     background-color: black;
     color: white;
     display: inline-block;
-    padding-right: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .three {
     background-color: black;
