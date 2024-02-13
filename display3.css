@@ -29,3 +29,25 @@
     margin-left: 1100px;
 
 } */
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+li,
+h3,
+ul {
+    display: inline;
+}
+
+ul {
+    margin-left: 70%;
+}
+
+.one {
+    margin-right: 50px;
+}
+.two {
+    margin-right: 50px;
+}
