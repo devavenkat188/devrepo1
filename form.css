@@ -1,4 +1,16 @@
-.one,.two,.three {
+.one,
+.two,
+.three {
     background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div {
+    
+    text-align: center;
+    display: inline-block;
+}
+form {
     text-align: center;
 }
