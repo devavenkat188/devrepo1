@@ -1,0 +1,16 @@
+.one {
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+.two {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-right: 60px;
+}
+.three {
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
