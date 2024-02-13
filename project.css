@@ -5,7 +5,73 @@
 .one {
     background-color: black;
     color: white;
+    padding: 10px;
+}
+li,ul,.list {
+    display: inline;
+    
+}
+ul {
+    margin-left: 70%;
+    color:gray;
+}
+li:hover {
+    color: white;
 }
 li {
-    display: inline;
+    cursor: pointer;
+}
+.two {
+    padding: 30px;
+    text-align: center;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.a {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.aa {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.a:hover {
+    background-color: black;
+    color: white;
+}
+.aa:hover {
+    background-color: black;
+    color: white;
+}
+.perfume {
+    margin: 20px;
+    text-align: center;
+}
+.details {
+    text-align: center;
+    margin-top: 20px;
+}
+.b {
+    margin-top: 20px;
+}
+.contact {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.c {
+    padding-top: 30px;
+    font-size: small;
 }
