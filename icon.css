@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    
+}
+i{
+    text-align: center;
+    margin: 10px;
+    color: beige;
+    border: 2px solid greenyellow;
+}
+#c {
+    color:brown;
+}
+#e {
+    color:blanchedalmond;
+    font-size: 40px;
+}
+span {
+    text-align: left;
+    font-size: 50px;
+}
