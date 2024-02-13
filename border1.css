@@ -1,10 +1,16 @@
 h1 {
     background-color: black;
-    color:lightyellow
+    color:yellow;
+    padding: 10px;
+    text-align: center;
+    
+    
 }
 p {
     border-width: 10px;
     border-color: black;
-    background-color: aliceblue;
-    margin-bottom: 60px;
+    border-style: solid;
+    background-color: gray;
+    margin: 30px;
+    padding: 30px;
 }
