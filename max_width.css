@@ -1,0 +1,16 @@
+p {
+    max-width: none;
+    background-color: aliceblue;   
+}
+.one{
+    max-width: 600px;
+    background-color: antiquewhite;
+}
+.two {
+    max-width: 80%;
+    background-color: azure;
+}
+.three {
+    max-width: initial;
+    background-color: bisque;
+}
