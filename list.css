@@ -1,9 +1,21 @@
 ul {
     list-style-type: disc;
 }
+
 .c {
     list-style-type: lower-alpha;
 }
+
 .d {
     list-style-type: decimal;
+}
+
+.a {
+    list-style-image: url("https://contribute.geeksforgeeks.org/wp-content/uploads/listitem-1.png");
+    list-style-position: inside;
+}
+/* Nested List */
+.e,
+.f {
+    list-style-type: square;
 }
