@@ -1,16 +1,23 @@
 p {
     max-width: none;
-    background-color: aliceblue;   
+    background-color: aliceblue;
+    display: inline;
 }
-.one{
+
+.one {
     max-width: 600px;
     background-color: antiquewhite;
+    display: inline-block
 }
+
 .two {
     max-width: 80%;
     background-color: azure;
+    display: block;
 }
+
 .three {
     max-width: initial;
     background-color: bisque;
+    display: grid;
 }
