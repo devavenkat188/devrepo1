@@ -18,4 +18,5 @@ ul {
 .e,
 .f {
     list-style-type: square;
+    background-color: azure;
 }
