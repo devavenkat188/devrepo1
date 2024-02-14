@@ -1,0 +1,58 @@
+.main {
+    background-color: green;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.main1 {
+    background-color:blue;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.main2 {
+    background-color:greenyellow;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+body {
+    margin-left: 500px;
+    padding: 10px;
+}
+.one {
+    background-color: green;
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.two {
+    background-color:blue;
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.three {
+    background-color:greenyellow;
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.a {
+    background-color: green;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.b {
+    background-color: blue;
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.c {
+    background-color: greenyellow;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
