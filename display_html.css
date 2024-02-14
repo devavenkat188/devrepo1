@@ -40,7 +40,7 @@ body {
 }
 .a {
     background-color: green;
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
 }
@@ -52,7 +52,7 @@ body {
 }
 .c {
     background-color: greenyellow;
-    display: block;
+    display: flex;
     width: 100px;
     height: 100px;
 }
