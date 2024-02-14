@@ -2,6 +2,43 @@ h1 {
     text-align: center;
     color: blue;
 }
-table,tr,td,th {
+
+table,
+tr,
+td,
+th {
     border: 2px solid blue;
+    margin-left: 620px;
+}
+
+.two {
+    border-collapse: collapse;
+    margin-left: 625px;
+}
+
+.three {
+    border-spacing: 40px;
+    margin-left: 580px;
+}
+
+.four {
+    caption-side: top;
+    margin-left: 620px;
+}
+
+.five {
+    empty-cells: show;
+    margin-left: 620px;
+}
+
+.six {
+    table-layout: auto;
+    margin-left: 550px;
+    width: 150px;
+}
+
+.seven {
+    table-layout: fixed;
+    margin-left: 620px;
+    width: 110px;
 }
