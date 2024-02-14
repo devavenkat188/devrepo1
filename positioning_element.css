@@ -1,16 +1,12 @@
-* {
-    width: 100px;
-    height: 200px;
-}
+
 span {
     padding: 5px;
     border: 1px dotted #ff0000;
-    width: 100px;
-    height: 200px;
+    
 }
 
 .fixed {
-    position: fixed;
+    position: absolute;
     background: #cc0000;
     color: #ffffff;
     padding: 30px;
